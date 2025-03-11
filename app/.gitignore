@@ -1,0 +1,22 @@
+# Ignore Rust target directory
+target/
+
+# Ignore build artifacts
+*.exe
+*.o
+*.so
+*.dylib
+
+# Ignore dependency directory
+node_modules/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore environment variable files
+.env
